@@ -9,124 +9,95 @@
 </head>
 
 <body>
-    <header>
-        <h1>Johannes Stöppler</h1>
+    <header class="header-container">
+        <h1 class="header-title">Johannes Stöppler</h1>
 
-        <div>
-            <nav id="navbar">
-                <a href="about">About</a>
-                <a href="projects-container">Projects</a>
-                <a href="#contact">Contact</a>
-                <a href="#resume.docx">Resume</a>
-            </nav>
-        </div>
+        <nav id="navbar" class="header-navbar">
+            <a href="#about-me" class="header-navbar-item">About me</a>
+            <a href="#work" class="header-navbar-item">Projects</a>
+            <a href="#contact" class="header-navbar-item">Contact</a>
+            <a href="#resume.docx" class="header-navbar-item">Resume</a>
+        </nav>
     </header>
 
-    <h2>The Beginning of Web Development: The Start</h2>
+    <div class="sub-header-container">
+        <h2 class="sub-header-text">The Beginning of Web Development: The Start</h2>
+    </div>
+
 
     <main>
-        <div id="about" class="card">
-            <section class="card-heading">
-                <h2>About</h2>
-            </section>
-            <div class="card-content">
-                <p>As a beginner developer with no previous experience, I am modivated in gaining the
-                    understanding of the ideals and fundamentals of Web Development.
-                </p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam quo quaerat sint, minima
-                    illum
-                    suscipit autem, reiciendis pariatur mollitia tempora tempore ut, provident fugiat saepe
-                    distinctio
-                    officiis error molestiae fugit?</p>
-            </div>
-
-
-            </section>
-            <section id="work" class="inline-item">
-                <h3>Work</h3>
-                <div class="work-boxes">
-                    <div class="work-box">
-                        <div class="work-box-overlay"></div>
-                        <img src="./assets/Horiseon-screenshot.png" alt="placholder image">
-                        <a href="" class="caption-text">
-                            <span class="caption-text-header"> Code Refactor</span>
-                            <span class="caption-text-sub-header"> Horiseon SEO Website</span>
-                        </a>
-                    </div>
-                    <div class="work-box-stack">
-                        <div class="work-box">
-                            <div class="work-box-overlay"></div>
-                            <img src="https://images.unsplash.com/photo-1620799495658-4309ed0b27a6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="placholder image">
-                            <span class="caption-text">
-                                <span class="caption-text-header"> LED Wall</span>
-                                <span class="caption-text-sub-header">Node/IoT</span>
-                            </span>
-                        </div>
-                        <div class="work-box">
-                            <div class="work-box-overlay"></div>
-                            <img src="https://images.unsplash.com/photo-1620799495658-4309ed0b27a6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="placholder image">
-                            <span class="caption-text">
-                                <span class="caption-text-header"> Calculator</span>
-                                <span class="caption-text-sub-header"> JavaScript/CSS</span>
-                            </span>
-                        </div>
-                        <div class="work-box">
-                            <div class="work-box-overlay"></div>
-                            <img src="https://images.unsplash.com/photo-1620799495658-4309ed0b27a6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="placholder image">
-                            <span class="caption-text">
-                                <span class="caption-text-header"> Pastel Puzzels</span>
-                                <span class="caption-text-sub-header"> MERN Stack</span>
-                            </span>
-                        </div>
-                        <div class="work-box">
-                            <div class="work-box-overlay"></div>
-                            <img src="https://images.unsplash.com/photo-1620799495658-4309ed0b27a6?q=80&w=1740&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
-                                alt="placholder image">
-                            <span class="caption-text">
-                                <span class="caption-text-header"> Run Buddy</span>
-                                <span class="caption-text-sub-header"> HTML/CSS</span>
-                            </span>
-                        </div>
-                    </div>
+        <div class="main-content-container">
+            <section id="about-me" class="section-container">
+                <div class="section-header-container">
+                    <h2 class="section-header-text">About</h2>
+                    <h2 class="section-header-text">Me</h2>
                 </div>
-            </section>
-            <div id="contact" class="card">
-                <section class="card-heading">
-                    <h2>Contact</h2>
-                </section>
-                <div id="contact-card" class="card-content">
-                    <p>(987) 654-3211</p>
-                    <p>hancock.lock@yahoo.com</p>
-                    <p>
-                        <a href="" target="_blank">
-                            <img src="./assets/images/github_logo.png" alt="Github logo"></a>
-
+                <div class="section-text-container">
+                    <p class="section-text">As a beginner developer with no previous experience, I am modivated in
+                        gaining the
+                        understanding of the ideals and fundamentals of Web Development.
                     </p>
+                    <p class="section-text">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quisquam quo
+                        quaerat sint, minima
+                        illum
+                        suscipit autem, reiciendis pariatur mollitia tempora tempore ut, provident fugiat saepe
+                        distinctio
+                        officiis error molestiae fugit?</p>
                 </div>
-            </div>
+            </section>
+
+            <section id="work" class="section-container">
+                <div class="section-header-container">
+                    <h2 class="section-header-text">Work</h2>
+                </div>
+                <div class="section-cards-container">
+                    <div class="card-main">
+                        <div class="card-caption-container">
+                            <p class="caption-text-header">Code Refactor</p>
+                            <p class="caption-text-sub-header">Horiseon SEO Website</p>
+                        </div>
+                    </div>
+                    <div class="card-secondary card-led">
+                        <div class="card-caption-container">
+                            <p class="caption-text-header">LED Wall</p>
+                            <p class="caption-text-sub-header">Node/IoT</p>
+                        </div>
+                    </div>
+                    <div class="card-secondary card-calculator">
+                        <div class="card-caption-container">
+                            <p class="caption-text-header">Calculator</p>
+                            <p class="caption-text-sub-header">JavaScript/CSS</p>
+                        </div>
+                    </div>
+                    <div class="card-secondary card-puzzle">
+                        <div class="card-caption-container">
+                            <p class="caption-text-header">Pastel Puzzels</p>
+                            <p class="caption-text-sub-header">MERN Stack</p>
+                        </div>
+                    </div>
+                    <div class="card-secondary card-runner">
+                        <div class="card-caption-container">
+                            <p class="caption-text-header">Run Buddy</p>
+                            <p class="caption-text-sub-header">HTML/CSS</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="section-container section-contact">
+                <div class="section-header-container">
+                    <h2 class="section-header-text">Contact</h2>
+                </div>
+                <div class="section-contact-container">
+                    <p class="contact-item">(987) 654-3211</p>
+                    <p class="contact-item">hancock.lock@yahoo.com</p>
+                    <p class="contact-item">Github</p>
+                </div>
+            </section>
+        </div>
     </main>
     <footer>
         <h3>Johannes Stöppler</h3>
     </footer>
 
 </body>
-
-
-
-
-
-
-
-
-
-
-
-
-
-</body>
-</head>
-
-<body>
